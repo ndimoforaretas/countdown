@@ -4,9 +4,13 @@
 
 ## Description
 
-An interactive event countdown timer that allows users to set a specific date and time, then displays the number of days, hours, minutes, and seconds remaining until that event. The project is built using HTML, CSS, and JavaScript.
+An interactive event countdown timer that allows users to set a specific date and time, then displays the number of days, hours, minutes, and seconds remaining until that event.
 
-The Event Countdown provides a visually appealing and user-friendly way to track the time remaining until important events. Whether you're counting down to a birthday, an anniversary, or any other significant event, this tool will keep you updated down to the second.
+- The project is built using HTML, CSS, and JavaScript.
+
+The Event Countdown provides a visually appealing and user-friendly way to track the time remaining until important events.
+
+- Whether you're counting down to a birthday, an anniversary, or any other significant event, this tool will keep you updated down to the second.
 
 ## Features
 
