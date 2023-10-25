@@ -1,0 +1,103 @@
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    0deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+
+h1 {
+  font-size: 2em;
+  margin: 2em 0.5em;
+}
+
+label {
+  font-size: 1.2em;
+  margin: 0.5em;
+}
+
+input {
+  font-size: 1.2em;
+  padding: 0.5em;
+  margin: 1.5em 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  width: 70%; /* Set to a percentage for responsiveness */
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#countdown {
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+#countdown span {
+  font-size: 1.5em;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 1em 0;
+}
+
+.background {
+  margin: 1rem;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  height: auto; /* Set to auto for better mobile responsiveness */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 90%; /* Set to a percentage for responsiveness */
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  label {
+    font-size: 1.5em;
+  }
+
+  input {
+    font-size: 1.5em;
+  }
+
+  #countdown {
+    font-size: 2em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1em;
+  }
+
+  #countdown span {
+    font-size: 2em;
+  }
+
+  .background {
+    padding: 5rem;
+    height: 70vh;
+    width: 80%; /* Reduce width on larger screens */
+  }
+}
