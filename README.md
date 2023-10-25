@@ -1,4 +1,6 @@
-# README: Event Countdown DOM Widget
+# Event Countdown DOM Widget
+
+![Event Countdown DOM Widget](event-countdown.gif)
 
 ## Description
 
